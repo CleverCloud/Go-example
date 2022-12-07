@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "app_id": "app_d9f11153-73d2-4b77-ae01-00ee08f474fb",
+      "org_id": "orga_6da271bb-0caf-42de-b85b-7b92db11c150",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_d9f11153-73d2-4b77-ae01-00ee08f474fb.git",
+      "name": "node-js",
+      "alias": "node-js"
+    },
+    {
+      "app_id": "app_e988773c-4749-45d6-b5ff-964247653040",
+      "org_id": "orga_6da271bb-0caf-42de-b85b-7b92db11c150",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_e988773c-4749-45d6-b5ff-964247653040.git",
+      "name": "hello-go",
+      "alias": "hello-go"
+    }
+  ]
+}

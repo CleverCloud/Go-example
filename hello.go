@@ -2,10 +2,20 @@ package main
 
 import (
 	"fmt"
-
-	"rsc.io/quote"
+	"net/http"
 )
 
 func main() {
-	fmt.Println(quote.Go())
+	http.HandleFunc("/", indexPage)
+	http.ListenAndServe(":8000", nil)
 }
+
+func indexPage(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(
+		w, `<h1>Hello, World</h1>
+    <p>Go is running on Clever Cloud 💡☁️,</p>
+    <p>you should give it a try!</p>`)
+
+}
+
+//do anything
