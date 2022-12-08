@@ -2,7 +2,7 @@
 
 This repository is a code example written in Go. You can clone it and deploy it on Clever Cloud following these steps.
 
-See a demo [here](https://gogogo.cleverapps.io).
+See an app demo [here](https://gogogo.cleverapps.io).
 
 _NB: alternatively, this can be a reference for deploying your own code on a remote server._
 You'll need a [Clever Cloud](https://clever-cloud.com) account to deploy on the platform.
