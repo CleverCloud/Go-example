@@ -23,7 +23,7 @@ Environment variables are injected dynamically on Clever Cloud. To deploy a Go a
 
 At the **Environment variables** step, add the variable name `CC_GO_BUILD_TOOL` with value `gobuild`.
 
-### ... and just... deploy
+### ... and just... deploy!
 
 Wait until the deployment is completed if you are deploying from GitHub, or copy paste the command from the Console to push the code if you are suning Git.  
 
