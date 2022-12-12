@@ -36,9 +36,11 @@ This repository has already been configured for deployment. Here's how, so you c
 Notice this part of the code in `main.go`:
 
 ```go
+}
 
 func main() {
  http.HandleFunc("/", indexPage)
+ //Clever Cloud applications must listen on port 8080
  http.ListenAndServe("0.0.0.0:8080", nil)
 
 }
