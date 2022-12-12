@@ -35,8 +35,7 @@ This repository has already been configured for deployment. Here's how, so you c
 
 Notice this part of the code in `main.go`:
 
-```
-}
+```go
 
 func main() {
  http.HandleFunc("/", indexPage)
